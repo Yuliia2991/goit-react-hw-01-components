@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProfileWrapper = styled.div`
-  width: 280px;
+  width: 300px;
   margin: 25px auto;
   color: #b6c7d2;
   border-radius: 10px;
@@ -36,12 +36,7 @@ export const Name = styled.p`
 
 export const StatsList = styled.ul`
   display: flex;
-  justify-content: space-around;
-  text-align: center;
-  flex-grow: 1;
-  margin: 0 auto;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+  background-color: #f5f8fa;
 `;
 
 export const StatsItem = styled.li`
@@ -55,11 +50,12 @@ export const StatsItem = styled.li`
 
 export const Label = styled.span`
   font-size: 15px;
-  line-height: 1.3;
+  line-height: 1.4;
 `;
 
 export const Quantity = styled.span`
   font-size: 18px;
+  line-height: 1.4;
   font-weight: 500;
   color: #393a34;
 `;
