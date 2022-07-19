@@ -31,7 +31,6 @@ export const StatItem = styled.li`
   width: 100%;
   padding: 10px;
   background-color: ${p => p.color};
-  /* border: 1px solid #b6c7d2; */
 `;
 
 export const StatLabel = styled.span``;

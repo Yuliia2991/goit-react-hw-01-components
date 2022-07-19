@@ -20,7 +20,7 @@ export const Profile = ({
   return (
     <ProfileWrapper>
       <ProfileDescription>
-        <Avatar src={avatar} alt="Profile avatar" />
+        <Avatar src={avatar} alt={username} />
         <Name>{username}</Name>
         <p>@{tag}</p>
         <p>{location}</p>
